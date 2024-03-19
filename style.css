@@ -233,3 +233,11 @@ h2
         opacity: 0;
     }
 }
+canvas {
+  position: fixed; /* Change to fixed position */
+  top: 0; /* Position at the top of the viewport */
+  left: 0; /* Position at the left of the viewport */
+  z-index: 9999999; /* Set a high z-index value to ensure it appears above other elements */
+  overflow: hidden; /* Hide overflow */
+  pointer-events: none; /* Ensure it doesn't interfere with pointer events */
+}
